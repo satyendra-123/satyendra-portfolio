@@ -36,7 +36,7 @@ const EXPERIENCES: RoleDetails[] = [
     id: "here",
     company: "HERE Technologies",
     role: "Lead Software Engineer / Architect",
-    period: "Jun 2023 - Apr 2024",
+    period: "Jun 2023 - Present",
     location: "Bengaluru, India",
     headlineMetric: "1M RPS • 80% → 10% Cache Miss",
     summary:
