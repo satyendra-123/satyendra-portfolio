@@ -2,6 +2,8 @@
 import { PROFILE, PROJECTS } from "@/data";
 import InteractiveSkills from "@/components/InteractiveSkills";
 import LabStream from "@/components/LabStream";
+import ExperienceTimeline from "@/components/ExperienceTimeline";
+
 import React, { useState } from "react";
 import { 
   Code2, 
@@ -95,11 +97,13 @@ export default function Home() {
           </div>
         </section>
 
+        <ExperienceTimeline/>
+
         {/* INTERACTIVE SKILL STACK */}
         <InteractiveSkills />
 
         {/* LIVE LAB LOGS */}
-        <LabStream />
+    
 
         {/* FOOTER */}
         <footer className="pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row justify-between items-center text-xs text-zinc-500 gap-4">
