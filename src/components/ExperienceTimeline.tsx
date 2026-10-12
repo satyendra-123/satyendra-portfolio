@@ -61,6 +61,17 @@ const EXPERIENCES: RoleDetails[] = [
     ],
     timelineEvents: [
       {
+        phase: "Nginx replacement with traefik",
+        focus: "High performant production system reverse proxy replacement",
+        details:
+          "Currently focusing on the migration of Nginx reverse proxy server to traefik with detail study of system trade off",
+      },  
+      {
+        phase: "Production P0, P1 incidents",
+        focus: "Debug the incidents and RCA studies",
+        details: "Handled the production incidents and led from identifying system bottlnecks to corrective actions delievery",
+      },      
+      {
         phase: "Platform Scale & Multi-Tenancy",
         focus: "1M RPS Architecture",
         details:
